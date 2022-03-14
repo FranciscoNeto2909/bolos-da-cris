@@ -1,0 +1,9 @@
+.boloCard{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
