@@ -4,6 +4,16 @@
     justify-content: space-around;
     margin-top: 20px;
 }
+.container-pesquisa{
+    width: 300px;
+    align-self: flex-start;
+}
+.container-pesquisa input{
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
 @media(max-width:500px){
     .bolos{
         overflow: hidden;

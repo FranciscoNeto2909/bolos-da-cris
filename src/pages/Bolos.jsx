@@ -1,14 +1,24 @@
+import { useState } from "react"
 import BolosCard from "../components/bolos/BolosCard"
 import { BolosJson } from "../components/bolos/BolosJson"
 import "./index.css"
 
 export default function Bolos() {
+    const[search, setSearch] = useState("")
+    function handleGetInputValue(e) {
+        setSearch(e.target.value)
+    }
+     const BolosFiltrados = BolosJson.filter(bolo => bolo.name.startsWith(search))
+     
     return(
     <>
     <h1>Bolos</h1>
+    <div className="container-pesquisa">
+        <input type="text" id="pesquisa" autoComplete="off" placeholder="Pesquisa" value={search} onChange={handleGetInputValue}/>
+    </div>
     <div className="bolos">
-    {BolosJson.map(bolo => (
-        <BolosCard price={bolo.price} name={bolo.name} img={bolo.img}/>
+    {BolosFiltrados.map((bolo, i) => (
+        <BolosCard key={i} price={bolo.price} name={bolo.name} img={bolo.img}/>
         ))}
     </div>
     </>
