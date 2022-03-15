@@ -1,11 +1,14 @@
 import "./bolosCard.css"
 
-export default function BolosCard({name, price}) {
+export default function BolosCard({name, price, img}) {
     return(
         <div className="boloCard">
             <h3>{name}</h3>
-            <img src="#" alt="bolo" className="boloCard-img"/>
-            <p className="boloCard-price">R$:{price}</p>
+            <img src={img} alt="bolo" className="boloCard-img"/>
+             <div className="boloCard-info">
+                <p className="boloCard-price">R$:{price}</p>
+                <button>Comprar</button>
+             </div>
         </div>
     )
 }

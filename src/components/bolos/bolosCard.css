@@ -1,9 +1,43 @@
 .boloCard{
-    height: 170px;
-    width: 150px;
+    height: 220px;
+    width: 180px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid #000;
+    border: 2px solid  rgba(0, 0, 0, 0.712);
     border-radius: 5px;
+}
+.boloCard img{
+    height: 120px;
+    width: 140px;
+    border-radius: 25px;
+    margin: auto;
+}
+.boloCard-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.boloCard-info button{
+    padding: 1px 6px;
+    border-radius: 5px;
+    background-color: rgb(0, 219, 0);
+    color: #fff;
+}
+.boloCard-price{
+    font-weight: bold;
+}
+@media(max-width:500px){
+    .boloCard{
+        height: 190px;
+        width: 140px;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .boloCard img{
+        height: 100px;
+        width: 120px;
+    }
 }

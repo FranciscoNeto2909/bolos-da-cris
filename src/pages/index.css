@@ -1,4 +1,11 @@
 .bolos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 20px;
+}
+@media(max-width:500px){
+    .bolos{
+        overflow: hidden;
+    }
 }
