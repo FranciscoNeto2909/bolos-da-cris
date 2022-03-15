@@ -7,7 +7,7 @@ import boloDebrigadeiro from "../../imgs/bolos/brigadeiro.jpg"
 import boloDeformigueiroDeCenoura from "../../imgs/bolos/cenoura-formigueiro.jpg"
 import boloDeCenouraMesclado from "../../imgs/bolos/cenoura-mesclado.jpg"
 import boloDeCenoura from "../../imgs/bolos/cenoura.jpg"
-import boloDeChoco4ltChocobranco from "../../imgs/bolos/choco-4leite-choco-branco.jpg"
+import boloDeChoco4ltChocoBranco from "../../imgs/bolos/choco-4leite-choco-branco.jpg"
 import boloDeCocada from "../../imgs/bolos/cocada.jpg"
 import boloDeDoisAmores from "../../imgs/bolos/dois-amores.jpeg"
 import boloFofoDoceDeLeite from "../../imgs/bolos/fofo-doce-de-leite.jpg"
@@ -18,7 +18,8 @@ import boloMacaDoAmor from "../../imgs/bolos/maça-do-amor.jpeg"
 import boloMoleLeiteDeCoco from "../../imgs/bolos/mole-leite-de-coco.jpeg"
 import boloMoleLeite from "../../imgs/bolos/mole-leite.jpeg"
 import boloDePacoca from "../../imgs/bolos/paçoca.jpg"
-import boloPiscinaChocoLtCmCoco from "../../imgs/bolos/piscina-choco-creme-de-coco.jpg"
+import boloPiscinaComLeiteDeCoco from "../../imgs/bolos/piscina-creme-de-coco.jpg"
+import boloPiscinaDeChurros from "../../imgs/bolos/piscina-churros.jpeg"
 import boloDePrestigio from "../../imgs/bolos/prestigio.jpeg"
 
 
@@ -70,7 +71,7 @@ export const BolosJson = [
     },
     {
         name:"bolo de chocolate com 4 leite",
-        img:boloDeChoco4ltChocobranco,
+        img:boloDeChoco4ltChocoBranco,
         price:20
     },
     {
@@ -124,8 +125,13 @@ export const BolosJson = [
         price:16
     },
     {
-        name:"bolo piscina",
-        img:boloPiscinaChocoLtCmCoco,
+        name:"bolo piscina com creme de coco",
+        img:boloPiscinaComLeiteDeCoco,
+        price:22
+    },
+    {
+        name:"bolo piscina de churros",
+        img:boloPiscinaDeChurros,
         price:22
     },
     {

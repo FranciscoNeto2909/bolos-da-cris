@@ -8,13 +8,13 @@ export default function Bolos() {
     function handleGetInputValue(e) {
         setSearch(e.target.value)
     }
-     const BolosFiltrados = BolosJson.filter(bolo => bolo.name.startsWith(search))
+     const BolosFiltrados = BolosJson.filter(bolo => bolo.name.includes(search))
      
     return(
     <>
     <h1>Bolos</h1>
     <div className="container-pesquisa">
-        <input type="text" id="pesquisa" autoComplete="off" placeholder="Pesquisa" value={search} onChange={handleGetInputValue}/>
+        <input type="text" id="pesquisar" autoComplete="off" placeholder="Pesquisa" value={search} onChange={handleGetInputValue}/>
     </div>
     <div className="bolos">
     {BolosFiltrados.map((bolo, i) => (
