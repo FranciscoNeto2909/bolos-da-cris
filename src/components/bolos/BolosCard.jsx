@@ -7,7 +7,7 @@ export default function BolosCard({name, price, img}) {
             <img src={img} alt="bolo" className="boloCard-img"/>
              <div className="boloCard-info">
                 <p className="boloCard-price">R$:{price}</p>
-                <a className="btn-pedidos" href={`https://wa.me/5585997844445?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${name}`}>Pedir</a>
+                <a className="btn-pedidos" href={`https://wa.me/5585999614992?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${name}`}>Pedir</a>
              </div>
         </div>
     )
