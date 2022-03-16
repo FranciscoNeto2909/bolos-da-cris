@@ -5,13 +5,16 @@
     margin-top: 20px;
 }
 .container-pesquisa{
-    width: 300px;
+    width: 220px;
     align-self: flex-start;
 }
 .container-pesquisa input{
+    height: 25px;
+    font-size: 15px;
     margin-left: 10px;
+    background-color: inherit;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkgray;
     outline: none;
 }
 @media(max-width:500px){

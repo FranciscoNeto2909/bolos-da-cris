@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <NavBar/>
       <Routes>
-        <Route path='/inicio' element={<Inicio/>}/>
+        <Route path='/' element={<Inicio/>}/>
         <Route path='/bolos' element={<Bolos/>}/>
         <Route path='/paes' element={<Paes/>}/>
         <Route path='/sobre' element={<Sobre/>}/>

@@ -5,10 +5,11 @@ import "./index.css"
 
 export default function Bolos() {
     const[search, setSearch] = useState("")
+    const lowerSearch = search.toLowerCase()
     function handleGetInputValue(e) {
         setSearch(e.target.value)
     }
-     const BolosFiltrados = BolosJson.filter(bolo => bolo.name.includes(search))
+     const BolosFiltrados = BolosJson.filter(bolo => bolo.name.toLowerCase().includes(lowerSearch))
      
     return(
     <>

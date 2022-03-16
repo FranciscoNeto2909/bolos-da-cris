@@ -7,7 +7,7 @@ export default function BolosCard({name, price, img}) {
             <img src={img} alt="bolo" className="boloCard-img"/>
              <div className="boloCard-info">
                 <p className="boloCard-price">R$:{price}</p>
-                <button>Comprar</button>
+                <a className="btn-pedidos">Pedir</a>
              </div>
         </div>
     )
