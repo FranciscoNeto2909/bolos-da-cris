@@ -9,8 +9,8 @@
 body {
   margin: 0;
   background-image:url("./imgs/logo.png");
-  background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
