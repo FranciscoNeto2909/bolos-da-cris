@@ -32,7 +32,7 @@ export const BolosJson = [
     {
         name:"bolo 4 leite",
         img:boloDe4Leites,
-        price:18
+        price:20
     },
     {
         name:"bolo de banana",
@@ -67,7 +67,7 @@ export const BolosJson = [
     {
         name:"bolo de cenoura com calda",
         img:boloDeCenoura,
-        price:22
+        price:20
     },
     {
         name:"bolo de chocolate com 4 leite",
