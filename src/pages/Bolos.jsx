@@ -1,6 +1,6 @@
 import { useState } from "react"
-import BolosCard from "../components/bolos/BolosCard"
-import { BolosJson } from "../components/bolos/BolosJson"
+import Card from "../components/produtos/Card"
+import { BolosJson } from "../components/produtos/BolosJson"
 import "./index.css"
 
 export default function Bolos() {
@@ -19,7 +19,7 @@ export default function Bolos() {
     </div>
     <div className="bolos">
     {BolosFiltrados.map((bolo, i) => (
-        <BolosCard key={i} price={bolo.price} name={bolo.name} img={bolo.img}/>
+        <Card key={i} price={bolo.price} name={bolo.name} img={bolo.img}/>
         ))}
     </div>
     </>

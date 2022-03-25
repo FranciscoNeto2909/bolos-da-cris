@@ -14,6 +14,7 @@ import boloFofoDoceDeLeite from "../../imgs/bolos/fofo-doce-de-leite.jpg"
 import boloFofoFormigueiro from "../../imgs/bolos/fofo-formigueiro.jpg"
 import boloFofo from "../../imgs/bolos/fofo.jpg"
 import boloDeFuba from "../../imgs/bolos/fuba.jpg"
+import boloDeFubaComGoiabada from "../../imgs/bolos/fuba-com-goiabada.jpeg"
 import boloMacaDoAmor from "../../imgs/bolos/maça-do-amor.jpeg"
 import boloMoleLeiteDeCoco from "../../imgs/bolos/mole-leite-de-coco.jpeg"
 import boloMoleLeite from "../../imgs/bolos/mole-leite.jpeg"
@@ -103,6 +104,11 @@ export const BolosJson = [
         name:"bolo de fubá",
         img:boloDeFuba,
         price:14
+    }, 
+    {
+        name:"bolo de fubá com goiabada",
+        img:boloDeFubaComGoiabada,
+        price:18
     },
     {
         name:"bolo maça do amor",
@@ -139,4 +145,5 @@ export const BolosJson = [
         img:boloDePrestigio,
         price:22
     },
+    
 ]

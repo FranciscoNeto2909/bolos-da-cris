@@ -1,4 +1,4 @@
-.boloCard{
+.card{
     height: 220px;
     width: 180px;
     margin-top: 10px;
@@ -8,38 +8,38 @@
     border: 2px solid  rgba(0, 0, 0, 0.712);
     border-radius: 5px;
 }
-.boloCard img{
+.card img{
     height: 120px;
     width: 140px;
     border-radius: 25px;
     margin: auto;
 }
-.boloCard-info{
+.card-info{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 5px;
 }
-.boloCard-info button{
+.card-info button{
     padding: 1px 6px;
     border-radius: 5px;
     background-color: rgb(0, 219, 0);
     color: #fff;
 }
-.boloCard-price{
+.card-price{
     font-weight: bold;
 }
 h3{
     margin-top: 5px;
 }
 @media(max-width:500px){
-    .boloCard{
+    .card{
         height: 190px;
         width: 140px;
         margin-top: 5px;
         font-size: 13px;
     }
-    .boloCard img{
+    .card img{
         height: 100px;
         width: 120px;
     }

@@ -1,4 +1,4 @@
-.bolos{
+.bolos,.paes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -18,7 +18,7 @@
     outline: none;
 }
 @media(max-width:500px){
-    .bolos{
+    .bolos,.paes{
         overflow: hidden;
     }
 }
