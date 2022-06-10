@@ -42,5 +42,6 @@
     .bolos,
     .paes {
         overflow: hidden;
+        margin-bottom: 50px;
     }
 }
