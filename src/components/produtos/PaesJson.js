@@ -3,7 +3,6 @@ import paoDeLeite from "../../imgs/paes/paoDeLeite.jpeg"
 import paoComQueijo from "../../imgs/paes/paoComQueijo.jpeg"
 import paoMisto from "../../imgs/paes/paoMisto.jpeg"
 import paoDeCoco from "../../imgs/paes/paoDeCoco.jpeg"
-import paoDeCremeDeCoco from "../../imgs/paes/paoComCremeDeCoco.jpeg"
 
 export const PaesJson = [
     {
@@ -25,11 +24,6 @@ export const PaesJson = [
         name:"Pão de coco",
         img:paoDeCoco,
         price:10
-    },
-    {
-        name:"Pão com creme de coco",
-        img:paoDeCremeDeCoco,
-        price:16
     },
     {
         name:"Pão misto",
