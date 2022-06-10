@@ -4,7 +4,7 @@ import NavBar from './components/navbar/navBar';
 import Inicio from "./pages/Inicio"
 import Bolos from "./pages/Bolos"
 import Paes from './pages/Paes';
-import Sobre from './pages/Sobre';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         <Route path='/' element={<Inicio/>}/>
         <Route path='/bolos' element={<Bolos/>}/>
         <Route path='/paes' element={<Paes/>}/>
-        <Route path='/sobre' element={<Sobre/>}/>
+        <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </div>
   );

@@ -3,13 +3,12 @@ import "./navBar.css"
 import logo from "../../imgs/logo.png"
 export default function NavBar() {
     return(
-        <nav>
-            <img src={logo} alt="logo" />
-            <div className="nav-links">
-                <Link to="/">Inicio</Link>
-                <Link to="/bolos">Bolos</Link>
-                <Link to="/paes">Pães</Link>
-                <Link to="/sobre">Sobre</Link>
+        <nav className="navBar">
+            <img src={logo} alt="logo" className="navBar-logo"/>
+            <div className="nav-links-container">
+                <Link className="nav-link" to="/">Inicio</Link>
+                <Link className="nav-link"to="/bolos">Bolos</Link>
+                <Link className="nav-link"to="/paes">Pães</Link>
             </div>
         </nav>
     )

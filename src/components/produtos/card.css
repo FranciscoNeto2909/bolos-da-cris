@@ -1,11 +1,12 @@
 .card{
     height: 220px;
     width: 180px;
+    color: rgb(58, 58, 58);
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid  rgba(0, 0, 0, 0.712);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
 }
 .card img{
@@ -20,11 +21,15 @@
     align-items: center;
     margin-bottom: 5px;
 }
-.card-info button{
+.btn-pedidos{
     padding: 1px 6px;
     border-radius: 5px;
     background-color: rgb(0, 219, 0);
     color: #fff;
+}
+.btn-pedidos:hover{
+    background-color: #0f0;
+    cursor: pointer;
 }
 .card-price{
     font-weight: bold;
@@ -32,7 +37,7 @@
 h3{
     margin-top: 5px;
 }
-@media(max-width:500px){
+@media(max-width:420px){
     .card{
         height: 190px;
         width: 140px;
