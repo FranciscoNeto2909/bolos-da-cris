@@ -19,7 +19,7 @@ export default function Bolos() {
             </div>
             <div className="bolos">
                 {BolosFiltrados.map((bolo, i) => (
-                    <Card key={i} price={bolo.price} name={bolo.name} img={bolo.img} />
+                    <Card key={i} food={bolo} />
                 ))}
             </div>
         </>

@@ -19,7 +19,7 @@ export default function Paes() {
             </div>
             <div className="paes">
                 {PaesFiltrados.map((paes, i) => (
-                    <Card key={i} price={paes.price} name={paes.name} img={paes.img} />
+                    <Card key={i} food={paes} />
                 ))}
             </div>
         </>

@@ -20,81 +20,98 @@ export const BolosJson = [
     {
         name: "bolo de abacaxi",
         img: boloDeAbacaxi,
+        sizes:1,
         price: 18
     },
     {
         name: "bolo 4 leite",
         img: boloDe4Leites,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo de banana",
         img: boloDebanana,
+        sizes:1,
         price: 17
     },
     {
         name: "bolo de batata",
         img: boloDebatata,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo de brigadeiro",
         img: boloDebrigadeiro,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo de cenoura com calda",
         img: boloDeCenoura,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo de cocada",
         img: boloDeCocada,
+        sizes:1,
         price: 18
     },
     {
         name: "bolo dois amores",
         img: boloDeDoisAmores,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo fofo formigueiro",
         img: boloFofoFormigueiro,
+        sizes:1,
         price: 16
     },
     {
         name: "bolo fofo",
         img: boloFofo,
+        sizes:1,
         price: 14
     },
     {
         name: "bolo de fubá",
         img: boloDeFuba,
+        sizes:1,
         price: 14
     },
     {
         name: "bolo mole de leite de coco",
         img: boloMoleLeiteDeCoco,
+        sizes:1,
         price: 20
     },
     {
         name: "bolo mole de leite",
         img: boloMoleLeite,
-        price: 20
+        sizes:2,
+        price: 20,
+        priceG: 30,
     },
     {
         name: "bolo piscina com creme de coco",
         img: boloPiscinaComLeiteDeCoco,
+        sizes:1,
         price: 22
     },
     {
         name: "bolo piscina de churros",
         img: boloPiscinaDeChurros,
+        sizes:1,
         price: 22
     },
     {
         name: "bolo prestigio",
         img: boloDePrestigio,
+        sizes:1,
         price: 22
     },
 
