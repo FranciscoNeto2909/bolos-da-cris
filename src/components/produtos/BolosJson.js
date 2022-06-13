@@ -86,15 +86,16 @@ export const BolosJson = [
     {
         name: "bolo mole de leite de coco",
         img: boloMoleLeiteDeCoco,
-        sizes:1,
-        price: 20
+        sizes:2,
+        price: 20,
+        priceG: 30,
     },
     {
         name: "bolo mole de leite",
         img: boloMoleLeite,
         sizes:2,
         price: 20,
-        priceG: 30,
+        priceG: 30
     },
     {
         name: "bolo piscina com creme de coco",
