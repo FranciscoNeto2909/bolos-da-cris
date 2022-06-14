@@ -1,4 +1,4 @@
-import boloDeAbacaxi from "../../imgs/bolos/abacaxi.jpg"
+import boloRedDeAbacaxi from "../../imgs/bolos/abacaxi.jpg"
 import boloDe4Leites from "../../imgs/bolos/4leites.jpg"
 import boloDebanana from "../../imgs/bolos/banana.jpg"
 import boloDebatata from "../../imgs/bolos/batata.jpg"
@@ -14,12 +14,15 @@ import boloMoleLeite from "../../imgs/bolos/mole-leite.jpeg"
 import boloPiscinaComLeiteDeCoco from "../../imgs/bolos/piscina-creme-de-coco.jpg"
 import boloPiscinaDeChurros from "../../imgs/bolos/piscina-churros.jpeg"
 import boloDePrestigio from "../../imgs/bolos/prestigio.jpeg"
+import boloDeAbacaxi from "../../imgs/bolos/bolo-de-abacaxi.jpg"
+import boloBrigadeiro from "../../imgs/bolos/bolo-brigadeiro.jpg"
+import boloDeLaranja from "../../imgs/bolos/bolo-de-laranja.jpg"
 
 
 export const BolosJson = [
     {
         name: "bolo de abacaxi",
-        img: boloDeAbacaxi,
+        img: boloRedDeAbacaxi,
         sizes:1,
         price: 18
     },
@@ -115,5 +118,23 @@ export const BolosJson = [
         sizes:1,
         price: 22
     },
-
+    {
+        name: "bolo de abacaxi",
+        img: boloDeAbacaxi,
+        sizes:2,
+        price: 36,
+        priceG:40
+    },
+    {
+        name: "bolo brigadeiro",
+        img: boloBrigadeiro,
+        sizes:1,
+        price: 40
+    },
+    {
+        name: "bolo de laranja",
+        img: boloDeLaranja,
+        sizes:1,
+        price: 16
+    },
 ]
