@@ -29,7 +29,7 @@ export default function Card({ food }) {
                         <option value="G">G</option>
                     </select>}
                 <p className="card-price">R$:{handleChoosePrice()}</p>
-                <a className="btn-pedidos" href={`https://wa.me/5585999614992?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${food.name} ${size === "M" && "medio"} ${size === "G" && "grande"}`}>Pedir</a>
+                <a className="btn-pedidos" href={`https://wa.me/5585999614992?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${food.name} ${size === "M"? "medio" : "" || size === "G"? "grande" : ""  }`}>Pedir</a>
             </div>
         </div>
     )
