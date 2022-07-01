@@ -123,7 +123,7 @@ export const BolosJson = [
         name: "bolo de abacaxi",
         img: boloDeAbacaxi,
         sizes:1,
-        price: 36,
+        price: 36
     },
     {
         name: "bolo brigadeiro",
