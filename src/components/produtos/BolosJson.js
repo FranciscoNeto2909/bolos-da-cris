@@ -24,117 +24,117 @@ export const BolosJson = [
         name: "bolo de abacaxi",
         img: boloRedDeAbacaxi,
         sizes:1,
-        price: 18
+        price: 20
     },
     {
         name: "bolo 4 leite",
         img: boloDe4Leites,
         sizes:1,
-        price: 20
+        price: 25
     },
     {
         name: "bolo de banana",
         img: boloDebanana,
         sizes:1,
-        price: 17
+        price: 20
     },
     {
         name: "bolo de batata",
         img: boloDebatata,
         sizes:1,
-        price: 20
+        price: 24
     },
     {
         name: "bolo de brigadeiro",
         img: boloDebrigadeiro,
         sizes:1,
-        price: 20
+        price: 25
     },
     {
         name: "bolo de cenoura com calda",
         img: boloDeCenoura,
         sizes:1,
-        price: 20
+        price: 24
     },
     {
         name: "bolo de cocada",
         img: boloDeCocada,
         sizes:1,
-        price: 18
+        price: 20
     },
     {
         name: "bolo dois amores",
         img: boloDeDoisAmores,
         sizes:1,
-        price: 20
+        price: 25
     },
     {
         name: "bolo fofo formigueiro",
         img: boloFofoFormigueiro,
         sizes:1,
-        price: 16
+        price: 18
     },
     {
         name: "bolo fofo",
         img: boloFofo,
         sizes:1,
-        price: 14
+        price: 16
     },
     {
         name: "bolo de fubá",
         img: boloDeFuba,
         sizes:2,
-        price: 14,
+        price: 16,
         priceG:25
     },
     {
         name: "bolo mole de leite de coco",
         img: boloMoleLeiteDeCoco,
         sizes:2,
-        price: 20,
+        price: 25,
         priceG: 30,
     },
     {
         name: "bolo mole de leite",
         img: boloMoleLeite,
         sizes:2,
-        price: 20,
+        price: 25,
         priceG: 30
     },
     {
         name: "bolo piscina com creme de coco",
         img: boloPiscinaComLeiteDeCoco,
         sizes:1,
-        price: 22
+        price: 26
     },
     {
         name: "bolo piscina de churros",
         img: boloPiscinaDeChurros,
         sizes:1,
-        price: 22
+        price: 26
     },
     {
         name: "bolo prestigio",
         img: boloDePrestigio,
         sizes:1,
-        price: 22
+        price: 26
     },
     {
         name: "bolo de abacaxi",
         img: boloDeAbacaxi,
         sizes:1,
-        price: 36
+        price: 40
     },
     {
         name: "bolo brigadeiro",
         img: boloBrigadeiro,
         sizes:1,
-        price: 40
+        price: 45
     },
     {
         name: "bolo de laranja",
         img: boloDeLaranja,
         sizes:1,
-        price: 16
+        price: 18
     },
 ]

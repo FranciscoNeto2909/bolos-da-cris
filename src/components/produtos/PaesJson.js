@@ -8,27 +8,27 @@ export const PaesJson = [
     {
         name:"Pão tradicional",
         img:paoTradicional,
-        price:8
+        price:10
     },
     {
         name:"Pão de Leite",
         img:paoDeLeite,
-        price:10
+        price:15
     },
     {
         name:"Pão com queijo",
         img:paoComQueijo,
-        price:16
+        price:18
     },
     {
         name:"Pão de coco",
         img:paoDeCoco,
-        price:10
+        price:12
     },
     {
         name:"Pão misto",
         img:paoMisto,
-        price:16
+        price:18
     },
 ]
 
