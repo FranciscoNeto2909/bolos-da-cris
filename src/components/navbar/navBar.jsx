@@ -6,8 +6,7 @@ export default function NavBar() {
         <nav className="navBar">
             <img src={logo} alt="logo" className="navBar-logo"/>
             <div className="nav-links-container">
-                <Link className="nav-link" to="/">Inicio</Link>
-                <Link className="nav-link"to="/bolos">Bolos</Link>
+                <Link className="nav-link"to="/">Bolos</Link>
                 <Link className="nav-link"to="/paes">Pães</Link>
             </div>
         </nav>

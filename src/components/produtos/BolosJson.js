@@ -1,13 +1,12 @@
 import boloRedDeAbacaxi from "../../imgs/bolos/abacaxi.jpg"
 import boloDe4Leites from "../../imgs/bolos/4leites.jpg"
 import boloDebanana from "../../imgs/bolos/banana.jpg"
-import boloDebatata from "../../imgs/bolos/batata.jpg"
 import boloDebrigadeiro from "../../imgs/bolos/brigadeiro.jpg"
 import boloDeCenoura from "../../imgs/bolos/cenoura.jpg"
 import boloDeCocada from "../../imgs/bolos/cocada.jpg"
-import boloDeDoisAmores from "../../imgs/bolos/dois-amores.jpeg"
 import boloFofoFormigueiro from "../../imgs/bolos/fofo-formigueiro.jpg"
 import boloFofo from "../../imgs/bolos/fofo.jpg"
+import boloFofoDe1kg from "../../imgs/bolos/fofo1kg.jpg"
 import boloDeFuba from "../../imgs/bolos/fuba.jpg"
 import boloMoleLeiteDeCoco from "../../imgs/bolos/mole-leite-de-coco.jpeg"
 import boloMoleLeite from "../../imgs/bolos/mole-leite.jpeg"
@@ -39,12 +38,6 @@ export const BolosJson = [
         price: 20
     },
     {
-        name: "bolo de batata",
-        img: boloDebatata,
-        sizes:1,
-        price: 24
-    },
-    {
         name: "bolo de brigadeiro",
         img: boloDebrigadeiro,
         sizes:1,
@@ -63,12 +56,6 @@ export const BolosJson = [
         price: 20
     },
     {
-        name: "bolo dois amores",
-        img: boloDeDoisAmores,
-        sizes:1,
-        price: 25
-    },
-    {
         name: "bolo fofo formigueiro",
         img: boloFofoFormigueiro,
         sizes:1,
@@ -79,6 +66,12 @@ export const BolosJson = [
         img: boloFofo,
         sizes:1,
         price: 16
+    },
+    {
+        name:"Bolo fofo de 1kg",
+        img: boloFofoDe1kg,
+        sizes:1,
+        price: 60
     },
     {
         name: "bolo de fubá",

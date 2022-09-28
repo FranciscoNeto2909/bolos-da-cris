@@ -10,7 +10,7 @@
     height: 100%;
     width: 220px;
     margin-left: 30px;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
 .nav-link{
@@ -38,5 +38,6 @@
     .nav-link{
         text-align: center;
         align-self: center;
+        margin-right: 10px;
     }
 }
