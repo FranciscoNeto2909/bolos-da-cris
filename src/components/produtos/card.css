@@ -33,14 +33,15 @@
 }
 .card-price{
     font-weight: bold;
+    padding: 0 2px;
 }
 h3{
     margin-top: 5px;
 }
 @media(max-width:420px){
     .card{
-        height: 190px;
-        width: 140px;
+        height: 210px;
+        width: 145px;
         margin-top: 5px;
         font-size: 13px;
     }

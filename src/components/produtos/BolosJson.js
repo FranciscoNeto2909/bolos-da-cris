@@ -1,4 +1,4 @@
-import boloRedDeAbacaxi from "../../imgs/bolos/abacaxi.jpg"
+import boloRoundDeAbacaxi from "../../imgs/bolos/abacaxi.jpg"
 import boloDe4Leites from "../../imgs/bolos/4leites.jpg"
 import boloDebanana from "../../imgs/bolos/banana.jpg"
 import boloDebrigadeiro from "../../imgs/bolos/brigadeiro.jpg"
@@ -16,12 +16,18 @@ import boloDePrestigio from "../../imgs/bolos/prestigio.jpeg"
 import boloDeAbacaxi from "../../imgs/bolos/bolo-de-abacaxi.jpg"
 import boloBrigadeiro from "../../imgs/bolos/bolo-brigadeiro.jpg"
 import boloDeLaranja from "../../imgs/bolos/bolo-de-laranja.jpg"
-
+import boloRedVelvet from "../../imgs/bolos/red-velvet.jpg"
+import bololimaoComDoce from "../../imgs/bolos/limao-com-doce-de-leite.jpg"
+import boloDeNinho from "../../imgs/bolos/ninho.jpg"
+import boloGirassol from "../../imgs/bolos/girassol.jpg"
+import boloNapolitano from "../../imgs/bolos/napolitano.jpg"
+import boloMesclado from "../../imgs/bolos/mesclado.jpg"
+import boloNinhoComBrigadeiro from "../../imgs/bolos/ninho-com-brigadeiro-de-morango.jpg"
 
 export const BolosJson = [
     {
         name: "bolo de abacaxi",
-        img: boloRedDeAbacaxi,
+        img: boloRoundDeAbacaxi,
         sizes:1,
         price: 20
     },
@@ -129,5 +135,47 @@ export const BolosJson = [
         img: boloDeLaranja,
         sizes:1,
         price: 18
+    },
+    {
+        name: "bolo red velvet",
+        img: boloRedVelvet,
+        sizes:1,
+        price: 25
+    },
+    {
+        name: "bolo de limão com doce de leite",
+        img: bololimaoComDoce,
+        sizes:1,
+        price: 25
+    },
+    {
+        name: "bolo de ninho",
+        img: boloDeNinho,
+        sizes:1,
+        price: 18
+    },
+    {
+        name: "bolo girassol",
+        img: boloGirassol,
+        sizes:1,
+        price: 28
+    },
+    {
+        name: "bolo napolitano",
+        img: boloNapolitano,
+        sizes:1,
+        price: 26
+    },
+    {
+        name: "bolo mesclado",
+        img: boloMesclado,
+        sizes:1,
+        price: 27
+    },
+    {
+        name: "bolo ninho com brigadeiro de morango",
+        img: boloNinhoComBrigadeiro,
+        sizes:1,
+        price: 25
     },
 ]
