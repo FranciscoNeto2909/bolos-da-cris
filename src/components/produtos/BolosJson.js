@@ -6,7 +6,6 @@ import boloDeCenoura from "../../imgs/bolos/cenoura.jpg"
 import boloDeCocada from "../../imgs/bolos/cocada.jpg"
 import boloFofoFormigueiro from "../../imgs/bolos/fofo-formigueiro.jpg"
 import boloFofo from "../../imgs/bolos/fofo.jpg"
-import boloFofoDe1kg from "../../imgs/bolos/fofo1kg.jpg"
 import boloDeFuba from "../../imgs/bolos/fuba.jpg"
 import boloMoleLeiteDeCoco from "../../imgs/bolos/mole-leite-de-coco.jpeg"
 import boloMoleLeite from "../../imgs/bolos/mole-leite.jpeg"
@@ -72,12 +71,6 @@ export const BolosJson = [
         img: boloFofo,
         sizes:1,
         price: 16
-    },
-    {
-        name:"Bolo fofo de 1kg",
-        img: boloFofoDe1kg,
-        sizes:1,
-        price: 60
     },
     {
         name: "bolo de fubá",
