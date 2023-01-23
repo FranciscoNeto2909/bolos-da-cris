@@ -1,12 +1,13 @@
-.bolos,
-.paes {
+.cakes,
+.bread {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 5px;
     margin-top: 20px;
 }
 
-.container-pesquisa {
+.container-search {
     width: 220px;
     align-self: flex-start;
 }
@@ -39,8 +40,8 @@
 }
 @media(max-width:500px) {
 
-    .bolos,
-    .paes {
+    .cakes,
+    .bread {
         overflow: hidden;
         margin-bottom: 50px;
     }

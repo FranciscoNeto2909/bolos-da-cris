@@ -1,24 +1,24 @@
 import { useState } from "react"
 import Card from "../components/produtos/Card"
-import { BolosJson } from "../components/produtos/BolosJson"
+import { CakesJson } from "../components/produtos/CakesJson"
 import "./index.css"
 
-export default function Bolos() {
+export default function Cakes() {
     const [search, setSearch] = useState("")
     const lowerSearch = search.toLowerCase()
     function handleGetInputValue(e) {
         setSearch(e.target.value)
     }
-    const BolosFiltrados = BolosJson.filter(bolo => bolo.name.toLowerCase().includes(lowerSearch))
+    const CakesFiltered = CakesJson.filter(bolo => bolo.name.toLowerCase().includes(lowerSearch))
 
     return (
         <>
-            <h1 className="title">Bolos</h1>
-            <div className="container-pesquisa">
-                <input type="text" autoComplete="off" className="search-input" placeholder="Pesquisa" value={search} onChange={handleGetInputValue} />
+            <h1 className="title">Cakes</h1>
+            <div className="container-search">
+                <input type="text" autoComplete="off" className="search-input" placeholder="Search" value={search} onChange={handleGetInputValue} />
             </div>
-            <div className="bolos">
-                {BolosFiltrados.map((bolo, i) => (
+            <div className="cakes">
+                {CakesFiltered.map((bolo, i) => (
                     <Card key={i} food={bolo} />
                 ))}
             </div>

@@ -23,7 +23,7 @@ import boloNapolitano from "../../imgs/bolos/napolitano.jpg"
 import boloMesclado from "../../imgs/bolos/mesclado.jpg"
 import boloNinhoComBrigadeiro from "../../imgs/bolos/ninho-com-brigadeiro-de-morango.jpg"
 
-export const BolosJson = [
+export const CakesJson = [
     {
         name: "bolo de abacaxi",
         img: boloRoundDeAbacaxi,

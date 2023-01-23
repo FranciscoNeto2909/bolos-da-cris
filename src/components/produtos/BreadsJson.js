@@ -3,7 +3,7 @@ import paoComQueijo from "../../imgs/paes/paoComQueijo.jpg"
 import paoMisto from "../../imgs/paes/paoMisto.jpg"
 import paoDeCoco from "../../imgs/paes/paoDeCoco.jpeg"
 
-export const PaesJson = [
+export const BreadsJson = [
     {
         name:"Pão tradicional",
         img:paoTradicional,
