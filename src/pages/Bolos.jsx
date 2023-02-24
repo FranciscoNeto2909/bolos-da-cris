@@ -6,6 +6,7 @@ import "./index.css"
 export default function Cakes() {
     const [search, setSearch] = useState("")
     const lowerSearch = search.toLowerCase()
+    
     function handleGetInputValue(e) {
         setSearch(e.target.value)
     }
