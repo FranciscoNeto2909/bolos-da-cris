@@ -8,15 +8,17 @@ export default function NavBar({ search, handleSearch }) {
         setnavBtn(e.target.id)
     }
     return (
-        <nav className="navBar">
-            <img src={logo} alt="logo" className="navBar-logo" />
-            <div className="nav-links-container">
-                <Link id="cake" className={`nav-link ${navbtn === "cake" && "nav-link--selected"}`} onClick={handleToggleButton} to="/">Bolos</Link>
-                <Link id="bread" className={`nav-link ${navbtn === "bread" && "nav-link--selected"}`} onClick={handleToggleButton} to="/paes">Pães</Link>
-            </div>
+        <>
+            <nav className="navBar">
+                <img src={logo} alt="logo" className="navBar-logo" />
+                <div className="nav-links-container">
+                    <Link id="cake" className={`nav-link ${navbtn === "cake" && "nav-link--selected"}`} onClick={handleToggleButton} to="/">Bolos</Link>
+                    <Link id="bread" className={`nav-link ${navbtn === "bread" && "nav-link--selected"}`} onClick={handleToggleButton} to="/paes">Pães</Link>
+                </div>
+            </nav>
             <div className="container-search">
                 <input type="text" autoComplete="off" className="search-input" placeholder="Search" value={search} onChange={handleSearch} />
             </div>
-        </nav>
+        </>
     )
 }

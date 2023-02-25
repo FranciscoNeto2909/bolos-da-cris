@@ -7,10 +7,13 @@ export default function Breads({ search }) {
     const BreadsFiltered = BreadsJson.filter(bread => bread.name.toLowerCase().includes(lowerSearch))
 
     return (
-        <div className="bread">
-            {BreadsFiltered.map((bread, i) => (
-                <Card key={i} food={bread} />
-            ))}
-        </div>
+        <>
+        <h3 className="title">Bolos da cris</h3>
+            <div className="bread">
+                {BreadsFiltered.map((bread, i) => (
+                    <Card key={i} food={bread} />
+                ))}
+            </div>
+        </>
     )
 }

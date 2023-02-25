@@ -8,10 +8,13 @@ export default function Cakes({ search }) {
     const CakesFiltered = CakesJson.filter(bolo => bolo.name.toLowerCase().includes(lowerSearch))
 
     return (
-        <div className="cakes">
-            {CakesFiltered.map((bolo, i) => (
-                <Card key={i} food={bolo} />
-            ))}
-        </div>
+        <>
+        <h3 className="title">Bolos da cris</h3>
+            <div className="cakes">
+                {CakesFiltered.map((bolo, i) => (
+                    <Card key={i} food={bolo} />
+                ))}
+            </div>
+        </>
     )
 }

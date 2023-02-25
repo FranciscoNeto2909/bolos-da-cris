@@ -9,6 +9,15 @@
     margin-top: 50px;
 }
 
+.title {
+    width: 100%;
+    z-index: 4;
+    position: fixed;
+    background: linear-gradient(to left, rgba(255, 255, 0, 0.99),rgb(255, 166, 0,0.99), rgb(255, 0, 0,0.99));
+    font-size: 2rem;
+    display: none;
+}
+
 .cakes-header {
     margin-top: 50px;
     position: fixed;
@@ -45,7 +54,11 @@
     .cakes,
     .bread {
         overflow: hidden;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-bottom: 50px;
+    }
+
+    .title {
+        display: block;
     }
 }

@@ -22,7 +22,7 @@ export default function Card({ food }) {
             <img src={food.img} alt="food" className="card-img" />
             <h3 className="card-title">{food.name}</h3>
             <div className="card-info">
-                <p className="card-price">R$:{handleChoosePrice()}</p>
+                <p className="card-price">R$:{handleChoosePrice()},00</p>
                 {food.sizes === 2 &&
                     <select className="card-sizes"
                         onChange={e => setSize(e.target.value)}>
