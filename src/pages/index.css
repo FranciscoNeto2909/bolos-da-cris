@@ -6,44 +6,46 @@
     margin: 0 5px;
     gap: 15px;
     padding: 20px 0;
+    margin-top: 50px;
 }
 
-.container-search {
-    width: 220px;
-    align-self: flex-start;
+.cakes-header {
+    margin-top: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    z-index: 2;
 }
-.title{
-    color: rgb(40,40,40);
+
+.cakes-header-title {
+    color: rgb(40, 40, 40);
 }
-.search-input {
-    height: 25px;
-    font-size: 15px;
-    margin-left: 10px;
-    background-color: inherit;
-    border: none;
-    border-bottom: 1px solid rgb(114, 111, 111);
-    outline: none;
-}
-.notfound-container{
+
+
+.notfound-container {
     height: 90vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.notFound{
-    display:flex;
+
+.notFound {
+    display: flex;
     height: 200px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     align-items: center;
 }
+
 @media(max-width:500px) {
 
     .cakes,
     .bread {
         overflow: hidden;
+        margin-top: 20px;
         margin-bottom: 50px;
     }
 }

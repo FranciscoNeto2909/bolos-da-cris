@@ -1,13 +1,21 @@
 import { Link } from "react-router-dom"
 import "./navBar.css"
 import logo from "../../imgs/logo.png"
-export default function NavBar() {
-    return(
+import { useState } from "react"
+export default function NavBar({ search, handleSearch }) {
+    const [navbtn, setnavBtn] = useState("cake")
+    function handleToggleButton(e) {
+        setnavBtn(e.target.id)
+    }
+    return (
         <nav className="navBar">
-            <img src={logo} alt="logo" className="navBar-logo"/>
+            <img src={logo} alt="logo" className="navBar-logo" />
             <div className="nav-links-container">
-                <Link className="nav-link"to="/">Bolos</Link>
-                <Link className="nav-link"to="/paes">Pães</Link>
+                <Link id="cake" className={`nav-link ${navbtn === "cake" && "nav-link--selected"}`} onClick={handleToggleButton} to="/">Bolos</Link>
+                <Link id="bread" className={`nav-link ${navbtn === "bread" && "nav-link--selected"}`} onClick={handleToggleButton} to="/paes">Pães</Link>
+            </div>
+            <div className="container-search">
+                <input type="text" autoComplete="off" className="search-input" placeholder="Search" value={search} onChange={handleSearch} />
             </div>
         </nav>
     )

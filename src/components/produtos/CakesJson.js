@@ -25,148 +25,148 @@ import boloNinhoComBrigadeiro from "../../imgs/bolos/ninho-com-brigadeiro-de-mor
 
 export const CakesJson = [
     {
-        name: "bolo de abacaxi",
+        name: "Bolo de abacaxi",
         img: boloRoundDeAbacaxi,
         sizes:1,
         price: 20
     },
     {
-        name: "bolo 4 leite",
+        name: "Bolo 4 leite",
         img: boloDe4Leites,
         sizes:1,
         price: 25
     },
     {
-        name: "bolo de banana",
+        name: "Bolo de banana",
         img: boloDebanana,
         sizes:1,
         price: 20
     },
     {
-        name: "bolo de brigadeiro",
+        name: "Bolo de brigadeiro",
         img: boloDebrigadeiro,
         sizes:1,
         price: 25
     },
     {
-        name: "bolo de cenoura com calda",
+        name: "Bolo de cenoura com calda",
         img: boloDeCenoura,
         sizes:1,
         price: 24
     },
     {
-        name: "bolo de cocada",
+        name: "Bolo de cocada",
         img: boloDeCocada,
         sizes:1,
         price: 20
     },
     {
-        name: "bolo fofo formigueiro",
+        name: "Bolo fofo formigueiro",
         img: boloFofoFormigueiro,
         sizes:1,
         price: 18
     },
     {
-        name: "bolo fofo",
+        name: "Bolo fofo",
         img: boloFofo,
         sizes:1,
         price: 16
     },
     {
-        name: "bolo de fubá",
+        name: "Bolo de fubá",
         img: boloDeFuba,
         sizes:2,
         price: 16,
         priceG:28
     },
     {
-        name: "bolo mole de leite de coco",
+        name: "Bolo mole de leite de coco",
         img: boloMoleLeiteDeCoco,
         sizes:2,
         price: 25,
         priceG: 35
     },
     {
-        name: "bolo mole de leite",
+        name: "Bolo mole de leite",
         img: boloMoleLeite,
         sizes:2,
         price: 25,
         priceG: 35
     },
     {
-        name: "bolo piscina com creme de coco",
+        name: "Bolo piscina com creme de coco",
         img: boloPiscinaComLeiteDeCoco,
         sizes:1,
         price: 26
     },
     {
-        name: "bolo piscina de churros",
+        name: "Bolo piscina de churros",
         img: boloPiscinaDeChurros,
         sizes:1,
         price: 26
     },
     {
-        name: "bolo prestigio",
+        name: "Bolo prestigio",
         img: boloDePrestigio,
         sizes:1,
         price: 26
     },
     {
-        name: "bolo de abacaxi",
+        name: "Bolo de abacaxi",
         img: boloDeAbacaxi,
         sizes:1,
         price: 40
     },
     {
-        name: "bolo brigadeiro",
+        name: "Bolo brigadeiro",
         img: boloBrigadeiro,
         sizes:1,
         price: 45
     },
     {
-        name: "bolo de laranja",
+        name: "Bolo de laranja",
         img: boloDeLaranja,
         sizes:1,
         price: 18
     },
     {
-        name: "bolo red velvet",
+        name: "Bolo red velvet",
         img: boloRedVelvet,
         sizes:1,
         price: 25
     },
     {
-        name: "bolo de limão com doce de leite",
+        name: "Bolo de limão com doce de leite",
         img: bololimaoComDoce,
         sizes:1,
         price: 25
     },
     {
-        name: "bolo de ninho",
+        name: "Bolo de ninho",
         img: boloDeNinho,
         sizes:1,
         price: 18
     },
     {
-        name: "bolo girassol",
+        name: "Bolo girassol",
         img: boloGirassol,
         sizes:1,
         price: 28
     },
     {
-        name: "bolo napolitano",
+        name: "Bolo napolitano",
         img: boloNapolitano,
         sizes:1,
         price: 26
     },
     {
-        name: "bolo mesclado",
+        name: "Bolo mesclado",
         img: boloMesclado,
         sizes:1,
         price: 27
     },
     {
-        name: "bolo ninho com brigadeiro de morango",
+        name: "Bolo ninho com brigadeiro de morango",
         img: boloNinhoComBrigadeiro,
         sizes:1,
         price: 25

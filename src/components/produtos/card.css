@@ -24,13 +24,18 @@
     font-size: 16px;
     overflow-y: hidden;
     text-align: start;
-    padding: 0 22px;
+    padding: 0 10px;
+}
+.card-desc{
+    padding: 0 10px;
+    text-align: start;
 }
 .card-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
+    padding: 0 10px 5px 10px;
 }
 
 .card-sizes{
@@ -68,11 +73,10 @@
         height: 210px;
     }
     .card-info{
-        padding: 0 20px 10px 20px;
         justify-content: space-between;
     }
     .card-title{
-        font-size: 1.5rem;
+        font-size: 1.42rem;
     }
     .card-sizes,
     .card-price{
