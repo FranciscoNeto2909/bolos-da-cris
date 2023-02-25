@@ -54,6 +54,7 @@
     background-color: rgb(0, 219, 0);
     color: #fff;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 .btn-requests:hover{
     background-color: #0f0;
@@ -70,7 +71,7 @@
         transform: scale(1);
     }
     .card img{
-        height: 210px;
+        height: 220px;
     }
     .card-info{
         justify-content: space-between;
@@ -81,5 +82,9 @@
     .card-sizes,
     .card-price{
         font-size: 1.3rem;
+    }
+
+    .btn-requests{
+        padding: 10px 20px;
     }
 }
