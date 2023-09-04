@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './components/navbar/navBar';
+import Header from './components/header/Header';
 import Bolos from "./pages/Bolos"
 import Paes from './pages/Paes';
 import NotFound from './pages/NotFound';
@@ -13,7 +13,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <NavBar search={search} handleSearch={handleSearch} />
+      <Header search={search} handleSearch={handleSearch} />
       <Routes>
         <Route path='/' element={<Bolos search={search} />} />
         <Route path='/paes' element={<Paes search={search} />} />

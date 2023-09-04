@@ -1,13 +1,17 @@
-.navBar {
+.header {
     width: 100vw;
-    height: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 55px;
     position: fixed;
     top: 0;
+    backdrop-filter: blur(2px);
+    z-index: 1;
+    padding: 8px 24px;
+}
+
+.navBar {
     display: flex;
     align-items: center;
-    backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.712);
-    z-index: 1;
 }
 
 .nav-links-container {
@@ -40,17 +44,18 @@
 }
 
 .container-search {
+    height: 30px;
     width: 220px;
     position: fixed;
-    top: 10px;
-    right: 20px;
+    top: 20px;
     z-index: 4;
+    right: 20px;
 }
 
 .search-input {
     height: 25px;
     font-size: 15px;
-    margin-left: 10px;
+    padding-left: 4px;
     background-color: inherit;
     border: none;
     color: #fff;
@@ -59,7 +64,7 @@
 }
 
 @media(max-width: 500px) {
-    .navBar {
+    .header {
         position: fixed;
         top: unset;
         bottom: -1px;
@@ -84,6 +89,7 @@
         right: 0;
         width: 100%;
         position: fixed;
+        margin-top: 4px;
         top: 36px;
         padding-bottom: 5px;
         box-shadow: 0 2px 10px #00000070;
