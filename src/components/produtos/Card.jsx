@@ -29,7 +29,7 @@ export default function Card({ food }) {
                         <option value="M">M</option>
                         <option value="G">G</option>
                     </select>}
-                <a className="btn-requests" href={`https://wa.me/5585999614992?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${food.name} ${size === "M" ? "medio" : "" || size === "G" ? "grande" : ""}`}>Pedir</a>
+                <a className="btn-requests" href={`https://wa.me/5585997844445?text=Olá%20eu%20gostaria%20de%20pedir%20um%20${food.name} ${size === "M" ? "medio" : "" || size === "G" ? "grande" : ""}`}>Pedir</a>
             </div>
         </div>
     )

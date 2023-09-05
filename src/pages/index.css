@@ -11,13 +11,17 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-.title {
-    width: 100%;
-    z-index: 4;
+.title-container {
     position: fixed;
+    height: 70px;
+    width: 100vw;
     background: linear-gradient(to left, rgba(255, 255, 0, 0.99), rgb(255, 166, 0, 0.99), rgb(255, 0, 0, 0.99));
-    font-size: 2rem;
     display: none;
+    z-index: 3;
+}
+
+.title {
+    font-size: 2rem;
 }
 
 .cakes-header {
@@ -60,6 +64,7 @@
 }
 
 @media (max-width:920px) {
+
     .cakes,
     .bread {
         grid-template-columns: repeat(3, 1fr);
@@ -67,6 +72,7 @@
 }
 
 @media (max-width:680px) {
+
     .cakes,
     .bread {
         grid-template-columns: repeat(2, 1fr);
@@ -85,7 +91,7 @@
         margin-bottom: 50px;
     }
 
-    .title {
+    .title-container {
         display: block;
     }
 }

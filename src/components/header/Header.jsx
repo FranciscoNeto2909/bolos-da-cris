@@ -20,7 +20,12 @@ export default function Header({ search, handleSearch }) {
                 </nav>
             </header>
             <div className="container-search">
-                <input type="text" autoComplete="off" className="search-input" placeholder="Search" value={search} onChange={handleSearch} />
+                <div className="search">
+                    <input type="text" autoComplete="off" className="search-input" placeholder="Search" value={search} onChange={e => handleSearch(e.target.value)} />
+                    {search.length > 0 &&
+                        <button className="search-cleanBtn" onClick={() => handleSearch("")}>x</button>
+                    }
+                </div>
             </div>
         </>
     )

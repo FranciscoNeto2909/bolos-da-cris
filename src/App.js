@@ -8,9 +8,11 @@ import { useState } from 'react';
 
 export default function App() {
   const [search, setSearch] = useState("")
+
   function handleSearch(e) {
-    setSearch(e.target.value)
+    setSearch(e)
   }
+
   return (
     <div className="App">
       <Header search={search} handleSearch={handleSearch} />

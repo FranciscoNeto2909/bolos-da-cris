@@ -1,7 +1,7 @@
-import paoTradicional from "../../imgs/paes/tradicional.jpeg"
-import paoComQueijo from "../../imgs/paes/paoComQueijo.jpg"
-import paoMisto from "../../imgs/paes/paoMisto.jpg"
-import paoDeCoco from "../../imgs/paes/paoDeCoco.jpeg"
+import paoTradicional from "../imgs/paes/tradicional.jpeg"
+import paoComQueijo from "../imgs/paes/paoComQueijo.jpg"
+import paoMisto from "../imgs/paes/paoMisto.jpg"
+import paoDeCoco from "../imgs/paes/paoDeCoco.jpeg"
 
 export const BreadsJson = [
     {

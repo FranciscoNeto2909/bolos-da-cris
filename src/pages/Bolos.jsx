@@ -1,5 +1,5 @@
 import Card from "../components/produtos/Card"
-import { CakesJson } from "../components/produtos/CakesJson"
+import { CakesJson } from "../data/CakesJson"
 import "./index.css"
 
 export default function Cakes({ search }) {
@@ -9,7 +9,9 @@ export default function Cakes({ search }) {
 
     return (
         <>
-        <h3 className="title">Bolos da cris</h3>
+            <div className="title-container">
+                <h3 className="title">Bolos da cris</h3>
+            </div>
             <div className="cakes">
                 {CakesFiltered.map((bolo, i) => (
                     <Card key={i} food={bolo} />
